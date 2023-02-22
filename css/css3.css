@@ -1,0 +1,96 @@
+/* MAIN */
+h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+h3 {
+    text-align: center;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tradition-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.tradition-text {
+  flex-basis: 55%;
+  padding-right: 20px;
+}
+
+.tradition-image {
+  flex-basis: 40%;
+}
+
+.tradition-image img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.tradition-image-wide img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* ANIMACIÓN */
+.animation {
+  max-width: 300px;
+  height: 268px;
+  flex-basis: 40%;
+  background: url("../imagenes/spritesheet.png") left center;
+}
+
+.animation:hover {
+  animation: walk 0.75s steps(6, end) infinite;
+}
+
+@keyframes walk {
+  from {
+    background-position: 0px;
+  }
+
+  to {
+    background-position: -1600px;
+  }
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 768px) {
+  .tradition-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .tradition-text {
+    flex-basis: 100%;
+    padding-right: 0;
+  }
+
+  .tradition-image {
+    flex-basis: 100%;
+  }
+
+  .animation {
+    flex-basis: 100%;
+    margin: auto;
+  }
+
+}

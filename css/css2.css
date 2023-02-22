@@ -1,0 +1,119 @@
+/* MAIN */
+h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.food-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.food-text {
+  flex-basis: 45%;
+  padding-right: 20px;
+}
+
+.food-image {
+  flex-basis: 40%;
+}
+
+.food-image img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .food-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .food-image img {
+    width: 100%;
+  }
+}
+
+/* MAPA DE IMAGENES */
+
+div.mapa_imagen {
+  width: 540px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px auto;
+  height: 337.5px;
+  background-image: url(../imagenes/bulgogiblack.png);
+  position: relative;
+}
+
+div.mapa_imagen div {
+  position: absolute;
+}
+
+div.mapa_imagen:hover div {
+  display: block;
+}
+
+#bulgogi {
+  width: 26%;
+  height: 49%;
+  top: 34%;
+  left: 0%;
+}
+
+#kimchi {
+  width: 44%;
+  height: 94%;
+  top: 5%;
+  left: 27%;
+}
+
+#chiles {
+  width: 28.4%;
+  height: 50%;
+  top: 2%;
+  left: 71.2%;
+}
+
+#bulgogi a {
+  height: 100%;
+  padding: 0;
+}
+
+#kimchi a {
+  height: 100%;
+  padding: 0;
+}
+
+#chiles a {
+  height: 100%;
+  padding: 0;
+}
+
+#bulgogi a:hover {
+  background: url(../imagenes/bulgogiblack.png) 0 89% no-repeat;
+}
+
+#kimchi a:hover {
+  background: url(../imagenes/bulgogiblack.png) 49% 100% no-repeat;
+}
+
+#chiles a:hover {
+  background: url(../imagenes/bulgogiblack.png) 100% 69% no-repeat;
+}
+
+/* END MAIN */
