@@ -117,3 +117,11 @@ div.mapa_imagen:hover div {
 }
 
 /* END MAIN */
+.mapa_imagen a,
+.dropbtn {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}

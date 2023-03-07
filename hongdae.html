@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Tradiciones Coreanas</title>
+    <!-- script -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+
+    <!-- OTIONAL JS FOR BOOTSTRAP -->
+    <script src="bootstrap/jquery-3.2.1.slim.min.js"></script>
+    <script src="bootstrap/popper.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/footeryheader.css">
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <a href="index.html" class="logo"><img src="imagenes/logo.jpg" alt="Logo" /></a>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="comidas.html" class="nav-link">Cocina</a></li>
+            <li><a href="tradiciones.html" class="nav-link">Tradiciones</a></li>
+            <li class="dropdown-css">
+                <a class="dropbtn" href="seoul.html">Seúl</a>
+                <div class="dropdown-content">
+                    <a href="hongdae.html">Hongdae</a>
+                    <a href="itaewon.html">Itaewon</a>
+                </div>
+            </li>
+            <li><a href="cultura.html" class="nav-link">Cultura</a></li>
+            <li><a href="musica.html" class="nav-link">Música</a></li>
+            <li><a href="television.html" class="nav-link">Televisión</a></li>
+        </ul>
+    </nav>
+    <!-- END NAVIGATION -->
+    <nav aria-label="breadcrumb" class="d-none d-md-block">
+        <ol class="breadcrumb bg-transparent p-0 mb-0 ml-3">
+            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+            <li class="breadcrumb-item"><a href="seoul.html">Seúl</a></li>
+            <li class="breadcrumb-item active d-none d-md-inline-block align-middle" aria-current="page">Hongdae</li>
+        </ol>
+    </nav>
+
+    <!-- HEADER -->
+    <div class="header">
+        <div class="header-image">
+            <img src="imagenes/hongdaebanner.jpg" alt="Imagen de Hongdae, Seúl">
+        </div>
+        <h1>Hongdae</h1>
+    </div>
+    <!-- END HEADER -->
+
+    <!-- MAIN -->
+
+    <div class="main">
+        <!-- Gallery -->
+        <h2 class="mt-5">Galeria de Seúl</h2>
+        <div class="row mx-auto mt-3 w-75">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 d-flex flex-column">
+                <img src="imagenes/galeria1.jpg" class="w-100 shadow-1-strong rounded mb-4 h-100" alt="Galeria 1" />
+                <img src="imagenes/galeria2.jpeg" class="w-100 shadow-1-strong rounded mb-4 h-100" alt="Galeria 2" />
+                <img src="imagenes/galeria3.jpg" class="w-100 shadow-1-strong rounded mb-4 h-100" alt="Galeria 3" />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0 d-flex flex-column">
+                <img src="imagenes/galeria4.jpg" class="w-100 shadow-1-strong rounded mb-4 h-100" alt="Galeria 4" />
+                <img src="imagenes/galeria5.jpg" class="w-100 shadow-1-strong rounded mb-4 h-100" alt="Galeria 5" />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0 d-flex flex-column">
+                <img src="imagenes/galeria6.jpg" class="w-100 shadow-1-strong rounded mb-4 h-100" alt="Galeria 6" />
+                <img src="imagenes/galeria7.webp" class="w-100 shadow-1-strong rounded mb-4 h-100" alt="Galeria 7" />
+                <img src="imagenes/galeria8.jpg" class="w-100 shadow-1-strong rounded mb-4 h-100" alt="Galeria 8" />
+                <img src="imagenes/galeria9.webp" class="w-100 shadow-1-strong rounded mb-4 h-100" alt="Galeria 9" />
+            </div>
+        </div>
+        <!-- Gallery -->
+        <table class="table mx-auto w-75">
+            <thead>
+                <tr>
+                    <th scope="col" class="border-right border-top-0">Lugar</th>
+                    <th scope="col" class="border-top-0">Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" class="border-right">Club Cocoon</th>
+                    <td>Un club de baile popular en Hongdae que cuenta con música electrónica, DJs en vivo y una gran
+                        pista de
+                        baile.</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="border-right">Trick Eye Museum</th>
+                    <td>Un museo de arte interactivo donde los visitantes pueden interactuar con las obras de arte y
+                        tomar fotos
+                        divertidas.</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="border-right">Hongdae Free Market</th>
+                    <td>Un mercado de pulgas semanal donde artistas locales y diseñadores venden sus creaciones, desde
+                        ropa
+                        hasta artículos de decoración del hogar.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- END MAIN -->
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="footer-content">
+            <h3>Descubre Corea</h3>
+            <p>Descubre Corea es un sitio web dedicado a la cultura coreana. Aquí encontrarás información sobre la
+                ubicación geográfica de Corea, su historia y su cultura.</p>
+        </div>
+        <div class="footer-bottom">
+            &copy; Aidan Miranda Blasco. Bootstrap. Ponme un 10.
+        </div>
+    </div>
+    <!-- END FOOTER -->
+</body>
+
+</html>
